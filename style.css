@@ -1,8 +1,8 @@
 body {
   background-color: #f9f7fe;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.app {
+.weather-app {
   background: white;
   margin: 45px auto;
   max-width: 600px;
@@ -12,6 +12,20 @@ body {
 }
 .search-form-input {
   background-color: #f9f7fe;
+  width: 65%;
+  border-style: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 15px;
 }
 .search-form-button {
+  background-color: #967cd6;
+  color: white;
+  border-style: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 15px;
+}
+.search-form-button:hover {
+  background-color: #7d57dd;
 }
